@@ -1,0 +1,138 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+    text-align: center;
+}
+
+body {
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	min-width: 960px;
+	}
+
+.test {
+	color: red;
+}
+
+.content {
+  padding: 16px;
+}
+
+html {
+    background-color: black;
+}
+
+nav	{
+	font-weight: bold;
+	background-image: url('../images/download.jpg');
+	background-repeat: repeat-x;
+	}
+	
+nav ul, footer ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px 0px;
+	}
+
+nav li, footer li {
+	display:inline;
+	margin: 20px;
+	text-transform: uppercase;
+	}
+
+nav a {
+	text-decoration: none;
+	color:white;
+	}
+
+nav a:hover {
+	text-decoration: underline;
+	}
+
+footer {
+    font-weight: bold;
+	background-image: url('../images/download.jpg');
+	background-repeat: repeat-x; 
+    text-decoration: none;
+    text-align: center
+    }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    background-image: url('../images/download.jpg');
+    text-align:center;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.customerbox {
+	border: 2px outset lightgray;
+	width: 60%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+    
+}
+
+.customerbox h1 {
+	font-size: 1.2em;
+	margin-top: 0;
+	padding: 10px;
+    colour: aliceblue;
+}
+
+.customerbox p {
+	padding: 0 10px;
+    
+}
+
+.customerbox h2 {
+	border-top: 1px dashed lightgrey;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 10px;
+    color: aliceblue;
+}
+
+.floatLeft {
+	margin-left: 15px;
+	float:left;
+}
+
+.floatRight {
+	margin-right: 15%;
+	float:right;
+}
+
+.clearfloat {
+	clear:both;
+}
+
+h1, h2, p {
+    color: aliceblue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+footer a {
+	color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	}
+
