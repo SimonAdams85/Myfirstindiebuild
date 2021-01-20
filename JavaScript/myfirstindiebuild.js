@@ -15,3 +15,18 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+var myImage = document.getElementById("mario");
+var imageArray = ["../images/mario.jpg" ,"../images/luigi.png"];
+
+var imageIndex = 0;
+
+function changeImage () {
+    myImage.setAttribute("src", imageArray[imageIndex]);
+    imageIndex++;
+    if (imageIndex >= imageArray.length) {
+        imageIndex = 0;
+    }
+}
+
+setInterval(changeImage, 5000);
