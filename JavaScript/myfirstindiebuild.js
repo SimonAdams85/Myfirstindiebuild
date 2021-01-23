@@ -30,3 +30,15 @@ function changeImage () {
 }
 
 setInterval(changeImage, 5000);
+
+//jquery fade buttons
+
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("#mario").fadeOut();
+  });
+  $(".btn2").click(function(){
+    $("#mario").fadeIn();
+  });
+});
+

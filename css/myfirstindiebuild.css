@@ -11,10 +11,6 @@ body {
 	min-width: 960px;
 	}
 
-.test {
-	color: red;
-}
-
 .content {
   padding: 16px;
 }
@@ -66,8 +62,8 @@ footer {
     text-align:center;
 }
 
-.sticky + .content {
-  padding-top: 60px;
+.sticky, .content {
+  padding-top: 10px;
 }
 
 .customerbox {
@@ -119,7 +115,7 @@ h1, h2, p {
     color: aliceblue;
 }
 
-main img {
+#mario {
     display: block;
     margin-left: 800px;
     margin-right: 8000px;
@@ -129,7 +125,8 @@ main img {
     border-style: groove;
     border-color: darkgray;
     border-radius: 100px;
-
+    height: 260px;
+    width: 200px;
 }
 
 footer a {
@@ -162,5 +159,44 @@ main h1 {
   width: 50%;
     
 }
+
+.btn1, .btn2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkred;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px darkgrey;
+  
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    
+.aew {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+}
+
+.bond { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 
 
